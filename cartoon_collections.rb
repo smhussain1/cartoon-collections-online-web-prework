@@ -10,7 +10,6 @@ end
 
 def long_planeteer_calls(calls_long)
     if calls_long.any? do |call| call.length > 4
-
     elsif calls_short.all? { |word| word.length < 4 } end   
 end
  
