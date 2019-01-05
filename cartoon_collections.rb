@@ -11,7 +11,7 @@ end
 def long_planeteer_calls(calls_array)
     #calls_long.map 
     #calls_long.any? do |word| word.length > 4 end
-    calls_array.any? do |call| call.length > 4 end
+    calls_array.each.any? do |call| call.length > 4 end
 end
  
 def long_planeteer_calls(calls_short)
